@@ -81,3 +81,23 @@ x = float(2) #2.0
 x = str(2)#'2'
 
 #Python Strings
+print("He is 'Jonny'")
+print('He is "Jonny"')
+a = """""mULTi line strings
+hajhaaalj jfhf """
+
+a = "Hello World"
+print(a[1])#e
+
+for x in "banana"
+    print(x)
+
+print(len(a))
+
+txt = "The best things in life are free!"
+print("free" in txt)#True
+
+#or
+
+if "free" in txt:
+    print("Yes,'free' is present")
