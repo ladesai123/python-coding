@@ -89,7 +89,7 @@ hajhaaalj jfhf """
 a = "Hello World"
 print(a[1])#e
 
-for x in "banana"
+for x in "banana":
     print(x)
 
 print(len(a))
@@ -101,3 +101,38 @@ print("free" in txt)#True
 
 if "free" in txt:
     print("Yes,'free' is present")
+
+#slicing of strings
+b = "Hello World!"#index starting from 0
+print(b[2:7]) #from index 2 to index 7
+print(b[:7]) #from start
+print(b[7:]) #from 7 upto end excluding index 7
+
+#Modifying Strings
+
+s = " sai teja "
+print(s.upper())
+print(s.lower())
+
+print(s.strip()) #removes whitespaces if any
+
+print(s.replace("e", "a"))
+
+print(s.split(","))
+
+#Strings cancatenation
+
+s = "sai"
+t = "teja"
+u = s + t
+print(u)
+
+#f-strings in python
+
+age = 21
+print(f"My age is {age}")
+print(f"The shirt price is {age:.2f}")#prints 21.00
+
+print("Hey we are \"coding\"")  #add a backslash
+
+#python all string methods saved for later..source w3shcools
