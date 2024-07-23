@@ -136,3 +136,20 @@ print(f"The shirt price is {age:.2f}")#prints 21.00
 print("Hey we are \"coding\"")  #add a backslash
 
 #python all string methods saved for later..source w3shcools
+
+#python operators
+
+#Python Lists
+my_List = {"akshay", "mohan", "karthik"}
+print(my_List)
+print(len(my_List))
+this_list = list(("apple", "banana", "cherry"))
+print(this_list[0])
+print(this_list[-1])
+print(this_list[2:5])#2 is included while 5 is excluded
+if apple in this_list:
+    print("Apple is there in the List")
+#insert methods in list
+this_list.insert(2, "water-melon")
+#append adds at the last
+this_list.append("graphes")
